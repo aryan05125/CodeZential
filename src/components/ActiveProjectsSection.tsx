@@ -16,9 +16,9 @@ const activeProjects = [
     type: "InsightPro Dashboard",
     icon: ShoppingCart,
     description: "Your Smart Dashboard for a Greener Future",
-    progress: 41 ,
+    progress: 58 ,
     technologies: ["React.js", "Django", "AI Integration"],
-    status: "Design Phase",
+    status: "In Development",
     estimatedCompletion: "1 week",
     image: "bg-gradient-to-br from-green-500 to-teal-600"
   },
@@ -27,10 +27,10 @@ const activeProjects = [
     type: "Portfolio Website",
     icon: Briefcase,
     description: "Modern portfolio website for a Full Stack Developer",
-    progress: 90,
+    progress: 100,
     technologies: ["React", "Tailwind", "Framer Motion"],
-    status: "In Development",
-    estimatedCompletion: "3 days",
+    status: "Testing",
+    estimatedCompletion: "5 days",
     image: "bg-gradient-to-br from-blue-500 to-purple-600"
   },
   
@@ -192,7 +192,7 @@ const ActiveProjectsSection = () => {
           </div>
           
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
-            <div className="text-2xl font-bold mb-1 text-green-500">67%</div>
+            <div className="text-2xl font-bold mb-1 text-green-500">40%</div>
             <div className="text-sm text-muted-foreground">On Schedule</div>
           </div>
           

@@ -21,9 +21,9 @@ const features = [
 
 const testimonials = [
   {
-    name: "Sarah Chen",
-    role: "Startup Founder",
-    content: "CodeZential transformed our vision into a stunning website that perfectly represents our brand. The attention to detail is incredible!",
+    name: "Ridham patel",
+    role: "Student",
+    content: "As a final year student, I needed a portfolio website for internships. CodeZential gave me exactly what I wanted — clean, responsive, and professional. Totally satisfied with the result!",
     rating: 5
   },
   {
