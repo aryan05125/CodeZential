@@ -11,26 +11,16 @@ import {
 } from 'lucide-react';
 
 const activeProjects = [
+ 
   {
-    title: "InsightPro",
-    type: "InsightPro Dashboard",
-    icon: ShoppingCart,
-    description: "Your Smart Dashboard for a Greener Future",
-    progress: 58 ,
-    technologies: ["React.js", "Django", "AI Integration"],
-    status: "In Development",
-    estimatedCompletion: "1 week",
-    image: "bg-gradient-to-br from-green-500 to-teal-600"
-  },
-  {
-    title: "Ridham Portfolio",
-    type: "Portfolio Website",
+    title: "Raj Digital",
+    type: "Business Website",
     icon: Briefcase,
-    description: "Modern portfolio website for a Full Stack Developer",
+    description: "Modern business website for a Full Stack Developer",
     progress: 100,
     technologies: ["React", "Tailwind", "Framer Motion"],
     status: "Testing",
-    estimatedCompletion: "5 days",
+    estimatedCompletion: "2 days",
     image: "bg-gradient-to-br from-blue-500 to-purple-600"
   },
   
@@ -70,7 +60,6 @@ const ActiveProjectsSection = () => {
 
   return (
     <section className="py-20 relative overflow-hidden">
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background to-card/20"></div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -183,21 +172,20 @@ const ActiveProjectsSection = () => {
           })}
         </div>
 
-        {/* Stats Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
             <TrendingUp className="w-8 h-8 text-primary mx-auto mb-2" />
-            <div className="text-2xl font-bold mb-1">2</div>
+            <div className="text-2xl font-bold mb-1">1</div>
             <div className="text-sm text-muted-foreground">Active Projects</div>
           </div>
           
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
-            <div className="text-2xl font-bold mb-1 text-green-500">40%</div>
+            <div className="text-2xl font-bold mb-1 text-green-500">67%</div>
             <div className="text-sm text-muted-foreground">On Schedule</div>
           </div>
           
           <div className="text-center p-6 bg-card rounded-2xl border border-border">
-            <div className="text-2xl font-bold mb-1 text-primary">2</div>
+            <div className="text-2xl font-bold mb-1 text-primary">3</div>
             <div className="text-sm text-muted-foreground">This month</div>
           </div>
           
@@ -207,7 +195,6 @@ const ActiveProjectsSection = () => {
           </div>
         </div>
 
-        {/* CTA */}
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">
             Want to see your project featured here?

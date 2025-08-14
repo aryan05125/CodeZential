@@ -85,11 +85,9 @@ const ServicesSection = () => {
 
   return (
     <section id="services" className="py-20 relative">
-      {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-b from-background to-secondary/20"></div>
       
       <div className="container mx-auto px-4 relative z-10">
-        {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
@@ -101,7 +99,6 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        {/* Services Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;

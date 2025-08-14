@@ -10,7 +10,6 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-primary/10" />
 
       {/* Floating Blobs */}
@@ -42,7 +41,6 @@ const HeroSection = () => {
             </span>
           </h1>
 
-          {/* Tagline */}
           <p className="text-lg md:text-xl text-muted-foreground mb-6 animate-fade-in delay-[300ms]">
             Custom Websites, Branding, AI & UI/UX Solutions
           </p>
@@ -50,7 +48,6 @@ const HeroSection = () => {
             We help individuals, students, and startups transform their digital presence with cutting-edge technology and innovative design.
           </p>
 
-          {/* CTA Button */}
           <div className="animate-fade-in delay-[700ms]">
             <button
               onClick={() => scrollToSection('contact')}
@@ -61,10 +58,9 @@ const HeroSection = () => {
             </button>
           </div>
 
-          {/* Stats */}
           <div className="grid grid-cols-3 gap-6 mt-16 text-center animate-fade-in delay-[1000ms]">
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-primary">2+</div>
+              <div className="text-3xl md:text-4xl font-bold text-primary">3+</div>
               <div className="text-muted-foreground">Total Projects</div>
             </div>
             <div>

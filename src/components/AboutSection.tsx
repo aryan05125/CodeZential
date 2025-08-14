@@ -23,19 +23,16 @@ const AboutSection = () => {
 
   return (
     <section id="about" className="py-20 relative overflow-hidden">
-      {/* Background Elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-card/30 to-background"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Floating CZ Logo */}
           <div className={`mb-12 transition-all duration-1000 ${isVisible ? 'animate-float' : 'opacity-0'}`}>
             <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-primary to-accent rounded-2xl text-white text-3xl font-bold shadow-[var(--shadow-glow)]">
               CZ
             </div>
           </div>
 
-          {/* Section Title */}
           <h2 className={`text-4xl md:text-5xl font-bold mb-8 transition-all duration-700 ${
             isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-10'
           }`}>
@@ -44,7 +41,6 @@ const AboutSection = () => {
             </span>
           </h2>
 
-          {/* Main Description */}
           <p className={`text-xl md:text-2xl text-muted-foreground mb-8 transition-all duration-700 delay-200 ${
             isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-10'
           }`}>
@@ -72,7 +68,6 @@ const AboutSection = () => {
             </p>
           </div>
 
-          {/* Key Values */}
           <div className={`grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 transition-all duration-700 delay-600 ${
             isVisible ? 'animate-fade-in' : 'opacity-0 translate-y-10'
           }`}>

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Zap, Award, HeartHandshake, Star } from 'lucide-react';
 
-const features = [
+const features = [ 
   {
     icon: Zap,
     title: "Fast Delivery",
@@ -27,9 +27,9 @@ const testimonials = [
     rating: 5
   },
   {
-    name: "Marcus Johnson",
-    role: "Student Developer",
-    content: "Amazing support for my academic project. The team guided me through every step and delivered beyond my expectations.",
+    name: "Raj Photography",
+    role: "Owner of Raj Digital",
+    content: " This website is b to me I liked it very much and my for making money.Thank you Aryan.",
     rating: 5
   },
   {
@@ -126,7 +126,7 @@ const WhyChooseUsSection = () => {
           })}
         </div>
 
-        {/* Testimonials Slider */}
+        
         <div className="max-w-4xl mx-auto">
           <h3 className="text-3xl font-bold text-center mb-12">
             <span className="bg-gradient-to-r from-foreground to-accent bg-clip-text text-transparent">
